@@ -1,5 +1,5 @@
 {
-    "name": "gmostafa/php-graphql-client",
+    "name": "deepakdhanji/php-graphql-client",
     "description": "GraphQL client and query builder.",
     "type": "library",
     "license": "MIT",
@@ -29,16 +29,16 @@
         }
     },
     "require": {
-        "php": "^7.1 || ^8.0",
+        "php": "^8.0",
         "ext-json": "*",
-        "psr/http-message": "^1.0",
+        "psr/http-message": "^2.0",
         "psr/http-client": "^1.0",
-        "guzzlehttp/guzzle": "^6.3|^7.0.1"
+        "guzzlehttp/guzzle": "^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5|^8.0|^9.0",
+        "phpunit/phpunit": "^9.0",
         "codacy/coverage": "^1.4",
-        "aws/aws-sdk-php": "^3.186"
+        "aws/aws-sdk-php": "^3.342"
     },
     "conflict": {
         "guzzlehttp/psr7": "< 1.7.0"
