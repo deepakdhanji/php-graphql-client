@@ -39,7 +39,7 @@ class Variable
      * @param bool   $isRequired
      * @param null   $defaultValue
      */
-    public function __construct(string $name, string $type, bool $isRequired = false, $defaultValue = null)
+    public function __construct(string $name, string $type, bool $isRequired = false, ?string $defaultValue = null)
     {
         $this->name         = $name;
         $this->type         = $type;

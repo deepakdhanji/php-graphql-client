@@ -42,11 +42,11 @@ class QueryBuilder extends AbstractQueryBuilder
      * @param string $name
      * @param string $type
      * @param bool   $isRequired
-     * @param null   $defaultValue
+     * @param string   $defaultValue
      *
      * @return AbstractQueryBuilder|QueryBuilder
      */
-    public function setVariable(string $name, string $type, bool $isRequired = false, $defaultValue = null)
+    public function setVariable(string $name, string $type, bool $isRequired = false, ?string $defaultValue = null)
     {
         return parent::setVariable($name, $type, $isRequired, $defaultValue);
     }
